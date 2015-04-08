@@ -25,11 +25,7 @@ Lesson description. Lesson description. Lesson description.
 
 ## Lesson steps
 
-### Part 1
-
-#### Step 1
-
-**Description**
+### Step 1
 
 Step text. Step text. Step text. Step text. 
 Step text. Step text. Step text. Step text. 
@@ -38,11 +34,7 @@ Step text. Step text. Step text. Step text.
 
 > ![](course/assets/lesson1/image.png)
 
-### Part 2
-
-#### Step 2
-
-**Description**
+### Step 2
 
 Step text. Step text. Step text. Step text. 
 Step text. Step text. Step text. Step text. 
@@ -51,7 +43,7 @@ Step text. Step text. Step text. Step text.
 
 > ![](course/assets/lesson1/image.png)
 
-**What happened?**
+#### What happened?
 
 Tip text Tip text Tip text
 > ![](course/assets/lesson1/steps/step2/tips/tip1/image1.png)
@@ -65,13 +57,11 @@ Tip text Tip text Tip text
 Tip text Tip text Tip text
 > ![](course/assets/lesson1/steps/step2/tips/tip1/image4.png)
 
-**Important**
+#### Important
 
 Tip text Tip text Tip text
 
-#### Step 3
-
-**Description**
+### Step 3
 
 Step text. Step text. Step text. Step text. 
 Step text. Step text. Step text. Step text. 
@@ -80,9 +70,7 @@ Step text. Step text. Step text. Step text.
 
 > ![](course/assets/lesson1/image.png)
 
-#### Step 4
-
-**Description**
+### Step 4
 
 Step text. Step text. Step text. Step text. 
 Step text. Step text. Step text. Step text. 
