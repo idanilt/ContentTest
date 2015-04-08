@@ -4,9 +4,14 @@
 
 ### Description
 
-> ![](course/assets/lesson1/image.png)
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
 
-Lesson description.
+> ![](course/assets/lesson1/image.png)
 
 ### Time to make
 
@@ -20,7 +25,7 @@ Lesson description.
 
 ## Lesson steps
 
-### Part name
+### Part 1
 
 #### Step 1
 
@@ -30,7 +35,7 @@ Step text.
 
 > ![](course/assets/lesson1/steps/step1/image.png)
 
-### Part name
+### Part 2
 
 #### Step 2
 
