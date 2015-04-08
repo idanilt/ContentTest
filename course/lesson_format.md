@@ -45,22 +45,21 @@ Step text.
 
 ![](course/assets/lesson1/steps/step2/image.png)
 
-**Tips**
 
-- Tip type
+**What happened?**
 
-  - Tip text
-  > ![](course/assets/lesson1/image.png)
-  > ![](course/assets/lesson1/steps/step2/tips/tip1/image1.png)
+Tip text Tip text Tip text
+> ![](course/assets/lesson1/steps/step2/tips/tip1/image1.png)
 
-  - Tip text
-  > ![](course/assets/lesson1/steps/step2/tips/tip1/image2.png)
+Tip text Tip text Tip text
+> ![](course/assets/lesson1/steps/step2/tips/tip1/image2.png)
 
-  - Tip text
-  > ![](course/assets/lesson1/steps/step2/tips/tip1/image3.png)
+Tip text Tip text Tip text
+> ![](course/assets/lesson1/steps/step2/tips/tip1/image3.png)
 
-  - Tip text
-  > ![](course/assets/lesson1/steps/step2/tips/tip1/image4.png)
+Tip text Tip text Tip text
+> ![](course/assets/lesson1/steps/step2/tips/tip1/image4.png)
 
-- Tip type
-  - Tip text
+**Important**
+
+Tip text Tip text Tip text
