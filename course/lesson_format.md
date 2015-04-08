@@ -49,21 +49,29 @@ Step text. Step text. Step text. Step text.
 
 #### What happened?
 
-Tip text Tip text Tip text
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+
 > ![](course/assets/lesson1/steps/step2/tips/tip1/image1.png)
 
-Tip text Tip text Tip text
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+
 > ![](course/assets/lesson1/steps/step2/tips/tip1/image2.png)
 
-Tip text Tip text Tip text
-> ![](course/assets/lesson1/steps/step2/tips/tip1/image3.png)
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
 
-Tip text Tip text Tip text
-> ![](course/assets/lesson1/steps/step2/tips/tip1/image4.png)
+> ![](course/assets/lesson1/steps/step2/tips/tip1/image3.png)
 
 #### Important
 
-Tip text Tip text Tip text
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text 
 
 ### Step 3
 
