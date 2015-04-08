@@ -6,7 +6,7 @@
 
 Lesson description.
 
-![](course/assets/lesson1/image.png)
+![aaaaaa](course/assets/lesson1/image.png)
 
 ### Time to make
 
