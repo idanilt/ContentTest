@@ -33,7 +33,7 @@ Lesson description. Lesson description. Lesson description.
 
 Step text.
 
-> ![](course/assets/lesson1/steps/step1/image.png)
+> ![](course/assets/lesson1/image.png)
 
 ### Part 2
 
