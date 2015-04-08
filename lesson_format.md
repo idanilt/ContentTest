@@ -40,8 +40,8 @@ The main JS and CSS files are also available in [npm] and [bower].
 To fetch a Github Repository's readme file, use the `Flatdoc.github` fetcher.
 This will fetch the Readme file of the repository's default branch.
 
-![](course/assets/lesson1/steps/step1/image.png)
 ``` javascript
+![](course/assets/lesson1/steps/step1/image.png)
 Flatdoc.run({
   fetcher: Flatdoc.github('USER/REPO')
 });
