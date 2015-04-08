@@ -1,167 +1,266 @@
----
-word: Start
-title: Getting started
-order: 0
----
+Flatdoc
+=======
+
+Flatdoc is a small JavaScript file that fetches Markdown files and renders them
+as full pages. Essentially, it's the easiest
+way to make open source documentation from *Readme* files.
+
+ * No server-side components
+ * No build process needed
+ * Deployable via GitHub Pages
+ * Can fetch GitHub Readme files
+ * Gorgeous default theme (and it's responsive)
+ * Just create an HTML file and deploy!
+
+*Current version: [v0.9.0][dist]*
+
+[![Build Status](https://travis-ci.org/rstacruz/flatdoc.svg?branch=gh-pages)](https://travis-ci.org/rstacruz/flatdoc)
 
 Getting started
-=====
+---------------
 
-### What's in the box
+Create a file based on the template, which has a bare DOM, link to the
+scripts, and a link to a theme. It will look something like this (not exact).
+For GitHub projects, simply place this file in your [GitHub pages] branch and
+you're all good to go.
 
-![Spark Core in box]({{assets}}/images/core-in-box.jpg)
+*In short: just download this file and upload it somewhere.*
 
-Congratulations on being the owner of a brand new Spark Core! Go ahead, open the box, and let's talk about what you see. Your box should include:
+The main JS and CSS files are also available in [npm] and [bower].
 
-- *(1) Spark Core*  The reason you bought it! 
-- *(1) Breadboard*  A breadboard makes it easy to wire components to the Core without soldering. See [Wikipedia](http://en.wikipedia.org/wiki/Breadboard) for more information.
-- *(1) USB cable*  The included USB cable is great for powering the Spark Core and we'll cover more technical things later.
+[Default theme template >][template]
 
+[Blank template >][blank]
 
-### Step 1: Power the Core
+[bower]: http://bower.io/search/?q=flatdoc
+[npm]: https://www.npmjs.org/package/flatdoc
 
-![Power the Core]({{assets}}/images/core-usb.jpg)
+### Via GitHub
 
-Plug the included USB cable into the Spark Core and your computer. The Core should start blinking blue.  [Have one of these u.FL connectors?](/hardware#spark-core-datasheet-types-of-cores) Make sure you connect an antenna to it now!
+To fetch a Github Repository's readme file, use the `Flatdoc.github` fetcher.
+This will fetch the Readme file of the repository's default branch.
 
-- Not blinking blue?
-  - Maybe it's already been configured. Hold down the MODE button until it starts blinking blue, then continue.
+``` javascript
+Flatdoc.run({
+  fetcher: Flatdoc.github('USER/REPO')
+});
+```
 
+You may also fetch another file other than the Readme file, just specify it as
+the 2nd parameter.
 
-### Step 2: Install the App
+``` javascript
+Flatdoc.run({
+  fetcher: Flatdoc.github('USER/REPO', 'Changelog.md')
+});
+```
 
-![Spark apps]({{assets}}/images/spark-app.jpg)
+After you've done this, you probably want to deploy it via [GitHub Pages].
 
-You can search for the mobile app named "Spark Core", or you can click one of these links:
+[GitHub Pages guide >][GitHub Pages]
 
-[iPhone >](https://itunes.apple.com/us/app/spark-core/id760157884)  [Android >](https://play.google.com/store/apps/details?id=io.spark.core.android)
+### Via a file
 
-Now use the app to sign up for an account!
+You may also fetch a file. In this example, this fetches the file `Readme.md` in
+the same folder as the HTML file.
 
-### Step 3: Connect your Core to the Cloud!
+``` javascript
+Flatdoc.run({
+  fetcher: Flatdoc.file('Readme.md')
+});
+```
 
-![Smart Config]({{assets}}/images/smart-config.jpg)
+You may actually supply any URL here. It will be fetched via AJAX. This is
+useful for local testing.
 
-Make sure your phone is connected to the WiFi you want to use (it'll show up in the SSID blank on the app), then enter your password and click CONNECT!
+``` javascript
+Flatdoc.run({
+  fetcher: Flatdoc.file('http://yoursite.com/Readme.md')
+});
+```
 
-This may take a little while- but don't worry. It should go through the following colors:
-- **Blinking blue**: Listening for Wi-Fi credentials
-- **Solid blue**:    Getting Wi-Fi info from app
-- **Blinking green**: Connecting to the Wi-Fi network
-- **Blinking cyan**: Connecting to the Spark Cloud
-- **Blinking magenta**: Updating to the newest firmware
-- **Breathing cyan**: Connected!
+How it works
+------------
 
-<div id="core1" class="core"><div class="core-butt"></div><div class="rgb"><div class="pattern"></div></div></div>
+Flatdoc is a hosted `.js` file (along with a theme and its assets) that you can
+add into any page hosted anywhere.
 
-<a id="button1" class="button" onclick="animateCore()">See an animation</a>
+#### All client-side
 
-Did your phone not find any Cores?
-- Is it blinking blue?
-  - Give it another go.
-- Is it blinking green and not getting to cyan?
-  - Try it again by holding the MODE button on the core until it begins flashing blue, then double-check your network name and password.
-- Is it now breathing cyan, but the app didn't find any Cores?
-  - Uh oh. Your Core's on the network, but it took too long. [We're going to claim your core manually.](/connect#claiming-your-core)
-- Something else altogether?
-  - Give the [Connecting Your Core](/connect) page a read-through and if you're still stuck, search the [community.](http://community.spark.io)
+There are no build scripts or 3rd-party services involved. Everything is done in
+the browser. Worried about performance? Oh, It's pretty fast.
 
+Flatdoc utilizes the [GitHub API] to fetch your project's Readme files. You may
+also configure it to fetch any arbitrary URL via AJAX.
 
+#### Lightning-fast parsing
 
-Now do things!
-=====
+Next, it uses [marked], an extremely fast Markdown parser that has support for
+GitHub flavored Markdown.
 
-### Blink an LED with Tinker
+Flatdoc then simply renders *menu* and *content* DOM elements to your HTML
+document. Flatdoc also comes with a default theme to style your page for you, or
+you may opt to create your own styles.
 
-![Tinker]({{assets}}/images/tinker-select.jpg)
+Markdown extras
+---------------
 
-The Spark app should now be on the Tinker screen, as shown to the right. 
+Flatdoc offers a few harmless, unobtrusive extras that come in handy in building
+documentation sites.
 
-Tap *D7* then _digitalWrite_ in the popup. Now when you tap the *D7* circle the tiny blue LED should turn off or on! This is because the LED shares a connection to the Core with the pin labeled D7. 
+#### Code highlighting
 
-You could hook your own LED up to the Core on another pin and do the same thing, use digitalRead to tell that a switch has been pressed, or analogRead to see the position of a knob.
+You can use Markdown code fences to make syntax-highlighted text. Simply
+surround your text with three backticks. This works in GitHub as well.
+See [GitHub Syntax Highlighting][fences] for more info.
 
-You can always get Tinker back on the Core by following [these instructions](/#/tinker#tinkering-with-tinker-the-tinker-firmware)
+    ``` html
+    <strong>Hola, mundo</strong>
+    ```
 
-### Put Code on Your Core
+#### Blockquotes
 
-![Spark Build]({{assets}}/images/ide.png)
+Blockquotes show up as side figures. This is useful for providing side
+information or non-code examples.
 
-Now let's control the blue LED using code instead of Tinker. If you [click here](http://spark.io/build) or on Build on the main page, you'll be in the IDE- where we can write code and upload it to the Core. Log in with the same email and password you used to sign up in the app, and we're off!
+> Blockquotes are blocks that begin with `>`.
 
-Click "BLINK AN LED" under the Example apps title. This code turns D7 (labeled _led2_) on and off, once a second. Click the lightning bolt icon in the upper left and it will upload or "flash" this code onto your Core. You'll see a series of status colors on the main LED, and then the little blue LED blinking. Magic!
+#### Smart quotes
 
-You can find more info in the [Web IDE (Build) page](/#/build)
+Single quotes, double quotes, and double-hyphens are automatically replaced to
+their typographically-accurate equivalent. This, of course, does not apply to
+`<code>` and `<pre>` blocks to leave code alone.
 
-Wait, what is this thing?
-=====
+> "From a certain point onward there is no longer any turning back. That is the
+> point that must be reached."  
+> --Franz Kafka
 
-The Spark Core is a Wi-Fi development kit for internet-connected hardware. It is, in essence, the "brains" of a connected hardware product or project.
+#### Buttons
 
-The Core has on board a microcontroller, which is a small, low-cost, low-power computer that can run a single application. The microcontroller runs the show; it runs your software and tells the rest of the Core what to do. It doesn't have an Operating System the way that your computer does; it just runs a single application (often called *firmware* or an *embedded application*), which can be simple, just a few lines of code, or very complex, depending on what you want to do.
+If your link text has a `>` at the end (for instance: `Continue >`), they show
+up as buttons.
 
-Microcontrollers are particularly good at *controlling things*; hence the name. They have a set of "pins" (little spider leg type things sticking off the chip) that are called *GPIO* (General Purpose Input and Output) pins, or I/O pins. They can be hooked to sensors or buttons to listen to the world, or they can be hooked to lights and motors to act upon the world. These microcontroller's pins have been directly connected to the headers on the sides of the Core so you can easily access them; specifically, the pins labeled D0 to D7 and A0 to A7 are hooked directly to the microcontroller's GPIO pins.
+> [View in GitHub >][project]
 
-The microcontroller can also communicate with other chips using common protocols like *Serial* (also called UART), *SPI*, or *I2C* (also called Wire). You can then make the Core more powerful by connecting it to special-purpose chips like motor drivers or shift registers. Sometimes we'll wrap up these chips on a *Shield*, an accessory to the Core that makes it easy to extend the Core.
+Customizing
+===========
 
-The Core also has a Wi-Fi module, which connects it to your local Wi-Fi network in the same way that your computer or smartphone might connect to a Wi-Fi network. The Core is programmed to stay connected to the internet by default, so long as it can find and connect to a network.
+Basic
+-----
 
-When the Core connects to the internet, it establishes a connection to the *Spark Cloud*. By connecting to the Cloud, the Core becomes accessible from anywhere through a simple REST API. This API is designed to make it very easy to interface with the Core through a web app or mobile app in a secure, private way, so that only you and those you trust can access the Core.
+### Theme options
 
-### Buttons
+For the default theme (*theme-white*), You can set theme options by adding
+classes to the `<body>` element. The available options are:
 
-There are two buttons on the Core: the RESET button (when holding the Core with its USB-port to the top, it's the button on the right) and the MODE button (on the left).
+#### big-h3
+Makes 3rd-level headings bigger.
 
-The RESET button will put the Core in a hard reset, effectively depowering and repowering the microcontroller. This is a good way to restart the application that you've downloaded onto the Core.
+``` html
+<body class='big-h3'>
+```
 
-The MODE button serves three functions:
+#### no-literate
+Disables "literate" mode, where code appears on the right and content text
+appear on the left.
 
-- Hold down the MODE button for three seconds to put the Core into *Smart Config* mode to connect it to your local Wi-Fi network. The LED should start flashing blue.
-- Hold down the MODE button for ten seconds to clear the Core's memory of Wi-Fi networks.
-- Hold down the MODE button, tap on the RESET button and wait for *three seconds* to enter *Bootloader* mode, where you can reprogram the Core over USB or JTAG. Release the MODE button when you see the LED flashing yellow. If you do this by accident, simply hit RESET button to leave *Bootloader* mode.
-- Hold down the MODE button, tap once on the RESET button and wait for *ten seconds* to do a *Factory Reset*, where the Core is reprogrammed with the software that was installed on the Core in the factory (the Tinker application). The LED should turn white for three seconds and begin flashing quickly; when the LED switches to another color the Core has been reset. This is useful if you encounter bugs with your firmware, or if you just want to get back to Tinker.
+``` html
+<body class='no-literate'>
+```
 
+#### large-brief
+Makes the opening paragraph large.
 
-### LEDs
+``` html
+<body class='large-brief'>
+```
 
-There are two LEDs on the Core. The big fat one in the middle is a full-color RGB LED that shows you the status of the Core's internet connection. The other small blue LED is the *user LED*; it's hooked up to D7, so when you turn the D7 pin `HIGH` or `LOW`, it turns on and off, respectively.
+### Adding more markup
 
-The RGB LED could show the following states:
+You have full control over the HTML file, just add markup wherever you see fit.
+As long as you leave `role='flatdoc-content'` and `role='flatdoc-menu'` empty as
+they are, you'll be fine.
 
-- *Flashing blue*: Listening mode, waiting for network information.
-- *Solid blue*: Smart Config complete, network information found.
-- *Flashing green*: Connecting to local Wi-Fi network.
-- *Flashing cyan*: Connecting to Spark Cloud.
-- *High-speed flashing cyan*: Spark Cloud handshake.
-- *Slow breathing cyan*: Successfully connected to Spark Cloud.
-- *Flashing yellow*: Bootloader mode, waiting for new code via USB or JTAG.
-- *White pulse*: Start-up, the Core was powered on or reset.
-- *Flashing white*: Factory Reset initiated.
-- *Solid white*: Factory Reset complete; rebooting.
-- *Flashing magenta*: Updating firmware.
-- *Solid magenta*: May have lost connection to the Spark Cloud. Pressing the Reset (RST) button will attempt the update again.
+Here are some ideas to get you started.
 
-The RGB LED can also let you know if there were errors in establishing an internet connection. *A red LED means an error has occurred.* These errors might include:
+ * Add a CSS file to make your own CSS adjustments.
+ * Add a 'Tweet' button on top.
+ * Add Google Analytics.
+ * Use CSS to style the IDs in menus (`#acknowledgements + p`).
 
-- *Two red flashes*: Connection failure due to bad internet connection. Check your network connection.
-- *Three red flashes*: The Cloud is inaccessible, but the internet connection is fine. Check our [Twitter feed](http://www.twitter.com/sparkdevices) to see if there have been any reported outages; if not, visit our [support page](https://www.spark.io/support) for help.
-- *Four red flashes*: The Cloud was reached but the secure handshake failed. Visit our [support page](https://www.spark.io/support) for help.
-- *Flashing yellow/red*: Bad credentials for the Spark Cloud. Contact the Spark team (<a href="mailto@hello@spark.io">hello@spark.io</a>).
+### JavaScript hooks
 
-### Pins
+Flatdoc emits the events `flatdoc:loading` and `flatdoc:ready` to help you make
+custom behavior when the document loads.
 
-The Core has 24 pins that you can connect a circuit to. These pins are:
+``` js
+$(document).on('flatdoc:ready', function() {
+  // I don't like this section to appear
+  $("#acknowledgements").remove();
+});
+```
 
-- _VIN_: To power the Core off an unregulated power source with a voltage between 3.6V and 6V, or, if you're powering the Core over USB, this pin can be used as 5V V~OUT~ to power external components. In this case consider the current limitation imposed by your USB power source (e.g. max. 500mA for standard USB 2.0 ports). *Avoid powering the Core via USB and V~IN~ concurrently*.
-- _3V3_: This pin will output a regulated 3.3V power rail that can be used to power any components outside the Core. (Also, if you have your own 3.3V regulated power source, you can plug it in here to power the Core).
-- _3V3*_: This is a separate low-noise regulated 3.3V power rail designed for analog circuitry that may be susceptible to noise from the digital components. If you're using any sensitive analog sensors, power them from _3V3*_ instead of from _3V3_.
-- _!RST_: You can reset the Core (same as pressing the RESET button) by connecting this pin to GND.
-- _GND_: These pins are your ground pins.
-- _D0 to D7_: These are the bread and butter of the Spark Core: 8 GPIO (General Purpose Input/Output) pins. They're labeled "D" because they are "Digital" pins, meaning they can't read the values of analog sensors. Some of these pins have additional peripherals (SPI, JTAG, etc.) available, keep reading to find out more.
-- _A0 to A7_: These pins are 8 more GPIO pins, to bring the total count up to 16. These pins are just like D0 to D7, but they are "Analog" pins, which means they can read the values of analog sensors (technically speaking they have an ADC peripheral). As with the Digital pins, some of these pins have additional peripherals available.
-- _TX and RX_: These pins are for communicating over Serial/UART. TX represents the transmitting pin, and RX represents the receiving pin.
+Full customization
+------------------
 
-#### PWM Pins
+You don't have to be restricted to the given theme. Flatdoc is just really one
+`.js` file that expects 2 HTML elements (for *menu* and *content*). Start with
+the blank template and customize as you see fit.
 
-When you want to use the `analogWrite()` function on the Core, for instance to smoothly dim the brightness of LEDs, you need to use pins that have a timer peripheral.  People often call these PWM pins, since what they do is called Pulse Width Modulation.  The Core has 8 PWM pins: A0, A1, A4, A5, A6, A7, D0 and D1.
+[Get blank template >][template]
 
+Misc
+====
+
+Inspirations
+------------
+
+The following projects have inspired Flatdoc.
+
+ * [Backbone.js] - Jeremy's projects have always adopted this "one page
+ documentation" approach which I really love.
+
+ * [Docco] - Jeremy's Docco introduced me to the world of literate programming,
+ and side-by-side documentation in general.
+
+ * [Stripe] - Flatdoc took inspiration on the look of their API documentation.
+
+ * [DocumentUp] - This service has the same idea but does a hosted readme 
+ parsing approach.
+
+Attributions
+------------
+
+[Photo](http://www.flickr.com/photos/doug88888/2953428679/) taken from Flickr,
+licensed under Creative Commons.
+
+Acknowledgements
+----------------
+
+© 2013, 2014, Rico Sta. Cruz. Released under the [MIT 
+License](http://www.opensource.org/licenses/mit-license.php).
+
+**Flatdoc** is authored and maintained by [Rico Sta. Cruz][rsc] with help from its 
+[contributors][c].
+
+ * [My website](http://ricostacruz.com) (ricostacruz.com)
+ * [Github](http://github.com/rstacruz) (@rstacruz)
+ * [Twitter](http://twitter.com/rstacruz) (@rstacruz)
+
+[rsc]: http://ricostacruz.com
+[c]:   http://github.com/rstacruz/flatdoc/contributors
+
+[GitHub API]: http://github.com/api
+[marked]: https://github.com/chjj/marked
+[Backbone.js]: http://backbonejs.org
+[dox]: https://github.com/visionmedia/dox
+[Stripe]: https://stripe.com/docs/api
+[Docco]: http://jashkenas.github.com/docco
+[GitHub pages]: https://pages.github.com
+[fences]:https://help.github.com/articles/github-flavored-markdown#syntax-highlighting
+[DocumentUp]: http://documentup.com
+
+[project]: https://github.com/rstacruz/flatdoc
+[template]: https://github.com/rstacruz/flatdoc/raw/gh-pages/templates/template.html
+[blank]: https://github.com/rstacruz/flatdoc/raw/gh-pages/templates/blank.html
+[dist]: https://github.com/rstacruz/flatdoc/tree/gh-pages/v/0.9.0
