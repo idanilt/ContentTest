@@ -43,7 +43,7 @@ This will fetch the Readme file of the repository's default branch.
 You may also fetch another file other than the Readme file, just specify it as
 the 2nd parameter.
 
-``` html
+```
 ![](course/assets/lesson1/steps/step1/image.png)
 ```
 
