@@ -44,10 +44,12 @@ Step text. Step text. Step text. Step text.
 
 **Description**
 
-Step text.
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
 
-![](course/assets/lesson1/steps/step2/image.png)
-
+> ![](course/assets/lesson1/image.png)
 
 **What happened?**
 
