@@ -45,10 +45,16 @@ Step text.
 - Tip type
 
   - Tip text
-  > (course/assets/lesson1/steps/step2/tips/tip1/image1.png)
+  > ![](course/assets/lesson1/steps/step2/tips/tip1/image1.png)
 
   - Tip text
-  > (course/assets/lesson1/steps/step2/tips/tip1/image2.png)
+  > ![](course/assets/lesson1/steps/step2/tips/tip1/image2.png)
+
+  - Tip text
+  > ![](course/assets/lesson1/steps/step2/tips/tip1/image3.png)
+
+  - Tip text
+  > ![](course/assets/lesson1/steps/step2/tips/tip1/image4.png)
 
 - Tip type
   - Tip text
