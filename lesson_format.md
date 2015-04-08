@@ -43,16 +43,18 @@ This will fetch the Readme file of the repository's default branch.
 You may also fetch another file other than the Readme file, just specify it as
 the 2nd parameter.
 
+blablaabl
 ![](course/assets/lesson1/steps/step1/image.png)
-```
-![](course/assets/lesson1/steps/step1/image.png)
-```
 
 After you've done this, you probably want to deploy it via [GitHub Pages].
 
 [GitHub Pages guide >][GitHub Pages]
 
 ### Via a file
+
+```
+![](course/assets/lesson1/steps/step1/image.png)
+```
 
 You may also fetch a file. In this example, this fetches the file `Readme.md` in
 the same folder as the HTML file.
