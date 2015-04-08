@@ -4,7 +4,7 @@
 
 ### Description
 
-![aaaaaa](course/assets/lesson1/image.png)
+> ![](course/assets/lesson1/image.png)
 
 Lesson description.
 
@@ -28,7 +28,7 @@ Lesson description.
 
 Step text.
 
-![](course/assets/lesson1/steps/step1/image.png)
+> ![](course/assets/lesson1/steps/step1/image.png)
 
 ### Part name
 
@@ -45,10 +45,10 @@ Step text.
 - Tip type
 
   - Tip text
-  - ![](course/assets/lesson1/steps/step2/tips/tip1/image1.png)
+  > (course/assets/lesson1/steps/step2/tips/tip1/image1.png)
 
   - Tip text
-  - ![](course/assets/lesson1/steps/step2/tips/tip1/image2.png)
+  > (course/assets/lesson1/steps/step2/tips/tip1/image2.png)
 
 - Tip type
   - Tip text
