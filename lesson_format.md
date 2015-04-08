@@ -1,9 +1,3 @@
----
-word: Lesson 1
-title: First lesson
-order: 0
----
-
 # Lesson name
 
 ## About
