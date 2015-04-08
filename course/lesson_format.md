@@ -6,7 +6,7 @@
 
 Lesson description.
 
-![](assets/course/lesson1/image.png)
+![](course/assets/lesson1/image.png)
 
 ### Time to make
 
@@ -28,7 +28,7 @@ Lesson description.
 
 Step text.
 
-![](assets/course/lesson1/steps/step1/image.png)
+![](course/assets/lesson1/steps/step1/image.png)
 
 ### Part name
 
@@ -38,17 +38,17 @@ Step text.
 
 Step text.
 
-![](assets/course/lesson1/steps/step2/image.png)
+![](course/assets/lesson1/steps/step2/image.png)
 
 **Tips**
 
 - Tip type
 
   - Tip text
-  - ![](assets/course/lesson1/steps/step2/tips/tip1/image1.png)
+  - ![](course/assets/lesson1/steps/step2/tips/tip1/image1.png)
 
   - Tip text
-  - ![](assets/course/lesson1/steps/step2/tips/tip1/image2.png)
+  - ![](course/assets/lesson1/steps/step2/tips/tip1/image2.png)
 
 - Tip type
   - Tip text
