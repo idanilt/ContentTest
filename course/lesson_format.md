@@ -68,3 +68,25 @@ Tip text Tip text Tip text
 **Important**
 
 Tip text Tip text Tip text
+
+#### Step 3
+
+**Description**
+
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+
+> ![](course/assets/lesson1/image.png)
+
+#### Step 4
+
+**Description**
+
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+
+> ![](course/assets/lesson1/image.png)
