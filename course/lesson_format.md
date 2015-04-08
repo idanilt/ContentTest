@@ -31,6 +31,15 @@ Lesson description. Lesson description. Lesson description.
 
 **Description**
 
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+Lesson description. Lesson description. Lesson description.
+
+> ![](course/assets/lesson1/image.png)
+
 Step text.
 
 > ![](course/assets/lesson1/image.png)
