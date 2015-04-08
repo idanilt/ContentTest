@@ -31,16 +31,10 @@ Lesson description. Lesson description. Lesson description.
 
 **Description**
 
-Lesson description. Lesson description. Lesson description.
-Lesson description. Lesson description. Lesson description.
-Lesson description. Lesson description. Lesson description.
-Lesson description. Lesson description. Lesson description.
-Lesson description. Lesson description. Lesson description.
-Lesson description. Lesson description. Lesson description.
-
-> ![](course/assets/lesson1/image.png)
-
-Step text.
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
+Step text. Step text. Step text. Step text. 
 
 > ![](course/assets/lesson1/image.png)
 
