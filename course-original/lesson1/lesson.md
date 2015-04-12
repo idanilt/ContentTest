@@ -37,7 +37,7 @@ Take the 6 feet (2 meters) of electric wire.
 Using the cutter, pinch the wire’s isolation 0.5” (1 cm) from the wire's end. Be careful not to touch the wire itself, only the plastic cover.
 
 > ![](course-original/lesson1/assets/step2.jpg)
-> 
+
 ### Step 3
 
 #### Description
