@@ -1,7 +1,7 @@
 /* ----------------------------------------------------------------------------
  * Fonts
  */
-@import url("//fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300");
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 /* ----------------------------------------------------------------------------
  * Base
  */
@@ -127,6 +127,18 @@ a {
 a:hover {
   color: #228a8a;
 }
+/* ----------------------------------------------------------------------------
+ * Extra styling
+ */
+.ltitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lessons {
+    font-size: 14px;
+}
+
 /* ----------------------------------------------------------------------------
  * Content styling
  */

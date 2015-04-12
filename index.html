@@ -1,15 +1,14 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
   <meta charset='utf-8'>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
 
-  <title>Makeree Curriculum</title>
+  <title>Makeree</title>
 
   <!-- Flatdoc -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <!--<script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/legacy.js'></script>-->
   <script src='website/js/flatdoc.js'></script>
 
   <!-- Flatdoc theme -->
@@ -26,8 +25,14 @@
 	Flatdoc.run({
       fetcher: Flatdoc.github('FreeTimeAcademy/ContentTest', 'course-original/lesson1/lesson.md')
     });
+
+	function loadcontent(contentid)
+	{
+	    Flatdoc.github('FreeTimeAcademy/ContentTest', 'course-original/' + contentid + '/lesson.md')
+	}
 		
   </script>
+
 </head>
 <body role='flatdoc'>
 
@@ -44,12 +49,21 @@
     </div>
   </div>
 
+    
   <div class='content-root'>
-    <div class='menubar'>
-      <div class='menu section' role='flatdoc-menu'></div>
-    </div>
-    <div role='flatdoc-content' class='content'></div>
-  </div>
+      <div class='menubar'>
+          <div class='menu section'>
+              <div class="ltitle">Lessons</div>
+              <div class="lessons">
+                  <a href="#" onclick="loadcontent('lesson1'); return false;">Lesson 1 - Electromagnet</a>
+                  <a href="#" onclick="loadcontent('lesson2'); return false;">Lesson 2 - Electromagnet</a>
+                  <a href="#" onclick="loadcontent('lesson3'); return false;">Lesson 3 - Electromagnet</a>
+              </div>
+          </div>
+                  <div class='menu section' role='flatdoc-menu'></div>
+          </div>
+          <div role='flatdoc-content' class='content'></div>
+      </div>
 
 </body>
 </html>
