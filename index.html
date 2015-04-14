@@ -7,40 +7,31 @@
 
   <title>Makeree</title>
 
-  <!-- Flatdoc -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src='website/js/flatdoc.js'></script>
-
-  <!-- Flatdoc theme -->
+  <script src='website/js/makeree.js'></script>
   <link  href='website/css/style.css' rel='stylesheet'>
   <script src='website/js/template.js'></script>
-
-  <!-- Meta -->
+  
   <meta content="Makeree Curriculum" property="og:title">
   <meta content="Makeree Curriculum" name="description">
-
-  <!-- Initializer -->
-  <script>
-    
-	Flatdoc.run({
-      fetcher: Flatdoc.github('FreeTimeAcademy/ContentTest', 'course-original/lesson1/lesson.md')
-    });
-
-	function loadcontent(contentid)
-	{
-	    Flatdoc.github('FreeTimeAcademy/ContentTest', 'course-original/' + contentid + '/lesson.md')
-	}
-		
-  </script>
 
 </head>
 <body role='flatdoc'>
 
-  <div class='header'>
+  <div class='header' style="">
     <div class='left'>
       <h1>Makeree</h1>
       <ul>
-        <li><a href='https://github.com/FreeTimeAcademy/ContentTest/'>View on GitHub</a></li>
+        <li>
+          <a href='https://github.com/FreeTimeAcademy/ContentTest/'>View on GitHub</a>
+        </li>
+        <li>
+            <div>
+                <span>Repository:</span><input id="repoistoryText" type="text" value="https://github.com/FreeTimeAcademy/ContentTest/" />
+                <input type="button" value="View" />
+            </div>
+        </li>
       </ul>
     </div>
     <div class='right'>
@@ -51,18 +42,18 @@
 
     
   <div class='content-root'>
-      <div class='menubar'>
+      <div id="menu" class='menubar'>
           <div class='menu section'>
               <div class="ltitle">Lessons</div>
               <div class="lessons">
-                  <a href="#" onclick="loadcontent('lesson1'); return false;">Lesson 1 - Electromagnet</a>
-                  <a href="#" onclick="loadcontent('lesson2'); return false;">Lesson 2 - Electromagnet</a>
-                  <a href="#" onclick="loadcontent('lesson3'); return false;">Lesson 3 - Electromagnet</a>
+                  <a href="" onclick="loadcontent('lesson1'); return false;">Lesson 1 - Electromagnet</a>
+                  <a href="" onclick="loadcontent('lesson2'); return false;">Lesson 2 - Electromagnet 2</a>
+                  <a href="" onclick="loadcontent('lesson3'); return false;">Lesson 3 - Electromagnet 3</a>
               </div>
           </div>
-                  <div class='menu section' role='flatdoc-menu'></div>
+			  <div id='contentmenu' class='menu section' role='flatdoc-menu'></div>
           </div>
-          <div role='flatdoc-content' class='content'></div>
+          <div id='content' role='flatdoc-content' class='content'></div>
       </div>
 
 </body>

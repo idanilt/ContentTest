@@ -136,7 +136,7 @@ a:hover {
 }
 
 .lessons {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* ----------------------------------------------------------------------------
@@ -608,7 +608,7 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   border-bottom: solid 1px #dfe2e7;
   padding: 15px 15px 15px 30px;
   zoom: 1;
-  line-height: 20px;
+  line-height: 30px;
   position: relative;
 }
 .header:before,
@@ -637,7 +637,7 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   text-rendering: optimizeLegibility;
   font-weight: bold;
   font-family: montserrat, sans-serif;
-  font-size: 13px;
+  font-size: 17px;
 }
 .header h1,
 .header h1 a,
@@ -652,6 +652,36 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   color: #9090aa;
   display: block;
 }
+
+.header li div {
+  padding: 0 15px;
+  font-size: 0.88em;
+  color: #9090aa;
+  display: block;
+}
+
+.header li div span {
+  
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.header li div input[type=text] {
+  
+  width: 360px;
+  padding-left: 5px;
+  font-size: 0.88em;
+  color: #9090aa;
+}
+
+.header li div input[type=button] {
+  
+  margin-left: 5px;
+  width: 80px;
+  font-size: 1.1em;
+  color: #9090aa;
+}
+
 .header li a:hover {
   color: #3a3a44;
 }
@@ -704,6 +734,7 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   border-top: 0;
   padding-top: 0;
 }
+
 a.big.button {
   display: block;
   -webkit-box-sizing: border-box;
