@@ -10,25 +10,66 @@ $(document).ready(function () {
     }
 
     // Get course name
-    var course = 'course-original';
+    var course = 'Inventions';
+    var courseid = getParameterByName('courseid');
+    if (courseid != '') {
+        course = courseid;
+    }
 
     // Get lesson id
     var lesson = 'lesson1';
-    var contentid = getParameterByName('contentid');
-    if (contentid != '') {
-        lesson = contentid;
+    var lessonid = getParameterByName('lessonid');
+    if (lessonid != '') {
+        lesson = lessonid;
     }
 
     // Run flatdoc
     Flatdoc.run({
-        fetcher: Flatdoc.github(repository, course + '/' + contentid + '/lesson.md')
+        fetcher: Flatdoc.github(repository, 'courses/' + course + '/' + lesson + '/lesson.md')
     });
+
+    // Generate menus
+    GenerateMenu(repository, course);
 })
 
+function GenerateMenu(repository, course)
+{
+    // Fetch courses folder from git
+    var url = 'https://api.github.com/repos/' + repository + '/contents/courses';
+    $.get(url, function (data) {
+        
+        for (var index = 0; index < data.length; index++) {
+            var courseLink = $("<a/>", {
+                href: "",
+                text: data[index].name,
+                onclick: "loadcourse('" + data[index].name + "')"
+            });
+            $("#courses").append(courseLink);
+        }
+    });
+
+    // Fetch lessons folder from git
+    var url = 'https://api.github.com/repos/' + repository + '/contents/courses/' + course;
+    $.get(url, function (data) {
+
+        for (var index = 0; index < data.length; index++) {
+            var lessonLink = $("<a/>", {
+                href: "",
+                text: data[index].name,
+                onclick: "loadlesson('" + data[index].name + "')"
+            });
+            $("#lessons").append(lessonLink);
+        }
+    });
+}
+
+function loadlesson(lessonid) {
+    setGetParameter('lessonid', lessonid);
+}
 
 
-function loadcontent(contentid) {
-    setGetParameter('contentid', contentid);
+function loadcourse(course) {
+    setGetParameter('courseid', course);
 }
 
 function setGetParameter(paramName, paramValue) {
