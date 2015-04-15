@@ -12,7 +12,7 @@ TBD
 
 Lessons are written in Markdown format, with images and other resources stored in GitHub repository.
 
-See **lesson_format.md** for a sample format of the lesson. 
+See **lesson_format.md** on GutHub for a sample format of the lesson. 
 
 ##### Course
 A course contains a list of project-based lessons which cover a subject, from easy to complex, eventually giving the reader an extensive knowledge on the course subject.
@@ -36,14 +36,14 @@ Types of extras:
 
 ##### Lesson format
 
-    1.	Lesson name 
-    2.	Lesson description
-    3. 	Lesson image
-    4.	Time to make
-    5.	Lesson Materials list
+    -	Lesson name 
+    -	Lesson description
+    - 	Lesson image
+    -	Time to make
+    -	Lesson Materials list
     	- Material name
     	- Material quantity
-    6.	Lesson steps list:
+    -	Lesson steps list:
     	- Step number
     	- Step image
     	- Step text

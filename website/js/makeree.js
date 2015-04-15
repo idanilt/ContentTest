@@ -1,8 +1,11 @@
 $(document).ready(function () {
 
+    var customrepository = getParameterByName('repository');
+    var lessonid = getParameterByName('lessonid');
+    var courseid = getParameterByName('courseid');
+
     // Get repository
     var repository = '';
-    var customrepository = getParameterByName('repository');
     if (customrepository != '') {
         repository = customrepository;
         $('#repoistoryText').val(repository);
@@ -22,7 +25,6 @@ $(document).ready(function () {
 
     // Get course name
     var course = '';
-    var courseid = getParameterByName('courseid');
     if (courseid != '') {
         course = courseid;
     }
@@ -39,7 +41,6 @@ $(document).ready(function () {
 
     // Get lesson id
     var lesson = '';
-    var lessonid = getParameterByName('lessonid');
     if (lessonid != '') {
         lesson = lessonid;
     }
@@ -51,10 +52,19 @@ $(document).ready(function () {
         }
     }
 
-    // Run flatdoc
-    Flatdoc.run({
-        fetcher: Flatdoc.github(repository, 'courses/' + course + '/' + lesson + '/lesson.md')
-    });
+    // Check if there are lesson or course parameters
+    if (courseid == '' && lessonid == '') {
+
+        Flatdoc.run({
+            fetcher: Flatdoc.github(repository)
+        });
+    }
+    else {
+
+        Flatdoc.run({
+            fetcher: Flatdoc.github(repository, 'courses/' + course + '/' + lesson + '/lesson.md')
+        });
+    }
 })
 
 function GenerateCoursesMenu(repository)
