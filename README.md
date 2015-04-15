@@ -8,12 +8,6 @@ TBD
 
 TBD
 
-### Course format
-
-Lessons are written in Markdown format, with images and other resources stored in GitHub repository.
-
-See **lesson_format.md** on GutHub for a sample format of the lesson. 
-
 ##### Course
 A course contains a list of project-based lessons which cover a subject, from easy to complex, eventually giving the reader an extensive knowledge on the course subject.
 
@@ -34,22 +28,28 @@ Types of extras:
 - Alternative
 - What happened?
 
+### Course format
+
+Lessons are written in Markdown format, with images and other resources stored in GitHub repository.
+
+See **lesson_format.md** on GutHub for a sample format of the lesson. 
+
 ##### Lesson format
 
-    -	Lesson name 
-    -	Lesson description
-    - 	Lesson image
-    -	Time to make
-    -	Lesson Materials list
-    	- Material name
-    	- Material quantity
-    -	Lesson steps list:
-    	- Step number
-    	- Step image
-    	- Step text
-    	- Step extras
-    		- Extra text
-    		- Extra image (optional)
+-	Lesson name 
+-	Lesson description
+- 	Lesson image
+-	Time to make
+-	Lesson Materials list
+	- Material name
+	- Material quantity
+-	Lesson steps list:
+	- Step number
+	- Step image
+	- Step text
+	- Step extras
+		- Extra text
+		- Extra image (optional)
 
 #### Github folder structure
 
@@ -59,22 +59,22 @@ Inside there are folder of courses, where the folder name indicates the course n
 
 Each course folder contains a list of lesson folders with lesson definition, steps assets and extra resources.
 
-    - [courses]
-    	- [course-name]
-    		- [lesson1-name]	
-    		- [lesson2-name]
-    			- Lesson.md
-    			- [assets]
-    				- Image.png
-    				- step1.png
-    				- step2.png
-    				- step3.png
-    				- [extra]
-    					- [step1]
-    						- extra.png
-    					- [step4]
-    						- extra1.png
-    						- extra2.png
+- [courses]
+	- [course-name]
+		- [lesson1-name]	
+		- [lesson2-name]
+			- Lesson.md
+			- [assets]
+				- Image.png
+				- step1.png
+				- step2.png
+				- step3.png
+				- [extra]
+					- [step1]
+						- extra.png
+					- [step4]
+						- extra1.png
+						- extra2.png
 
 
 #### Images
