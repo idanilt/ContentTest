@@ -9,58 +9,89 @@ $(document).ready(function () {
         repository = repository.substring(0, repository.length - 1);
     }
 
+    // Generate menus
+    GenerateCoursesMenu(repository);
+
     // Get course name
-    var course = 'Inventions';
+    var course = '';
     var courseid = getParameterByName('courseid');
     if (courseid != '') {
         course = courseid;
     }
+    else
+    {
+        var firstCourse = $("#courses a:first-child");
+        if (firstCourse != null) {
+            course = firstCourse.text().trim();
+        }
+    }
+
+    // Generate menus
+    GenerateLessonsMenu(repository, course);
 
     // Get lesson id
-    var lesson = 'lesson1';
+    var lesson = '';
     var lessonid = getParameterByName('lessonid');
     if (lessonid != '') {
         lesson = lessonid;
+    }
+    else
+    {
+        var firstLesson = $("#lessons a:first-child");
+        if (firstLesson != null) {
+            lesson = firstLesson.text();
+        }
     }
 
     // Run flatdoc
     Flatdoc.run({
         fetcher: Flatdoc.github(repository, 'courses/' + course + '/' + lesson + '/lesson.md')
     });
-
-    // Generate menus
-    GenerateMenu(repository, course);
 })
 
-function GenerateMenu(repository, course)
+function GenerateCoursesMenu(repository)
 {
     // Fetch courses folder from git
     var url = 'https://api.github.com/repos/' + repository + '/contents/courses';
-    $.get(url, function (data) {
-        
-        for (var index = 0; index < data.length; index++) {
-            var courseLink = $("<a/>", {
-                href: "",
-                text: data[index].name,
-                onclick: "loadcourse('" + data[index].name + "')"
-            });
-            $("#courses").append(courseLink);
-        }
-    });
+    $.ajax({
+        url: url,
+        success: function (data) {
 
+            for (var index = 0; index < data.length; index++) {
+                var courseLink = $("<a/>", {
+                    href: "",
+                    text: data[index].name,
+                    onclick: "loadcourse('" + data[index].name + "')"
+                });
+                $("#courses").append(courseLink);
+            }
+        },
+        async: false
+    }
+    );
+}
+
+function GenerateLessonsMenu(repository, course) {
+
+    debugger
     // Fetch lessons folder from git
     var url = 'https://api.github.com/repos/' + repository + '/contents/courses/' + course;
-    $.get(url, function (data) {
+    $.ajax({
+        url: url,
+        success: function (data) {
 
-        for (var index = 0; index < data.length; index++) {
-            var lessonLink = $("<a/>", {
-                href: "",
-                text: data[index].name,
-                onclick: "loadlesson('" + data[index].name + "')"
-            });
-            $("#lessons").append(lessonLink);
-        }
-    });
+            for (var index = 0; index < data.length; index++) {
+                var lessonLink = $("<a/>", {
+                    href: "",
+                    text: data[index].name,
+                    onclick: "loadlesson('" + data[index].name + "')"
+                });
+                $("#lessons").append(lessonLink);
+            }
+        },
+        async: false
+    }
+    );
 }
 
 function loadlesson(lessonid) {
