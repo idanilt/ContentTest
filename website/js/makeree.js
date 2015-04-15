@@ -73,7 +73,6 @@ function GenerateCoursesMenu(repository)
 
 function GenerateLessonsMenu(repository, course) {
 
-    debugger
     // Fetch lessons folder from git
     var url = 'https://api.github.com/repos/' + repository + '/contents/courses/' + course;
     $.ajax({
@@ -95,6 +94,9 @@ function GenerateLessonsMenu(repository, course) {
 }
 
 function loadlesson(lessonid) {
+    var url = window.location.href;
+    var urlparts = url.split('?');
+
     setGetParameter('lessonid', lessonid);
 }
 
