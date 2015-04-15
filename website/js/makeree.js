@@ -80,7 +80,6 @@ function GenerateLessonsMenu(repository, course) {
         success: function (data) {
 
             for (var index = 0; index < data.length; index++) {
-
                 var lessonLink = $("<a/>", {
                     href: "",
                     text: data[index].name,
