@@ -61,7 +61,7 @@ function GenerateCoursesMenu(repository)
                 var courseLink = $("<a/>", {
                     href: "",
                     text: data[index].name,
-                    onclick: "loadcourse('" + data[index].name + "')"
+                    onclick: "loadcourse('" + data[index].name + "');return false;"
                 });
                 $("#courses").append(courseLink);
             }
@@ -80,10 +80,11 @@ function GenerateLessonsMenu(repository, course) {
         success: function (data) {
 
             for (var index = 0; index < data.length; index++) {
+
                 var lessonLink = $("<a/>", {
                     href: "",
                     text: data[index].name,
-                    onclick: "loadlesson('" + data[index].name + "')"
+                    onclick: "loadlesson('" + data[index].name + "');return false;"
                 });
                 $("#lessons").append(lessonLink);
             }
@@ -102,7 +103,6 @@ function loadlesson(lessonid) {
 function loadcourse(course) {
     var url = setGetParameter(window.location.href, 'courseid', course);
     var url = setGetParameter(url, 'lessonid', '');
-    alert(url);
     window.location.href = url;
 }
 
