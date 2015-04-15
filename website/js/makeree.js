@@ -94,19 +94,19 @@ function GenerateLessonsMenu(repository, course) {
 }
 
 function loadlesson(lessonid) {
-    var url = window.location.href;
-    var urlparts = url.split('?');
-
-    setGetParameter('lessonid', lessonid);
+    var url = setGetParameter(window.location.href, 'lessonid', lessonid);
+    window.location.href = url;
 }
 
 
 function loadcourse(course) {
-    setGetParameter('courseid', course);
+    var url = setGetParameter(window.location.href, 'courseid', course);
+    var url = setGetParameter(url, 'lessonid', '');
+    alert(url);
+    window.location.href = url;
 }
 
-function setGetParameter(paramName, paramValue) {
-    var url = window.location.href;
+function setGetParameter(url, paramName, paramValue) {
     if (url.indexOf(paramName + "=") >= 0) {
         var prefix = url.substring(0, url.indexOf(paramName));
         var suffix = url.substring(url.indexOf(paramName));
@@ -120,7 +120,7 @@ function setGetParameter(paramName, paramValue) {
         else
             url += "&" + paramName + "=" + paramValue;
     }
-    window.location.href = url;
+    return url;
 }
 
 function getParameterByName(name) {
