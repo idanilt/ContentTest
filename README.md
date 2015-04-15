@@ -1,40 +1,109 @@
-# MAKEREE
+# MAKEREE Courses
 
-### What is Makeree ?
+### Courses
 
-Makeree is an app-course that will teach you how to become a maker. It’s amazingly fun, rewarding and FREE.
+TBD
 
-We have chopped the learning curriculum to become a maker to small but “proudable” projects. Each project is a step in your journey to become a maker. Finishing a project and taking a picture of it allows you to get feedback from experts and from peers, who just finished this same project a couple of days ago.
+### Contribute
 
-Our step by step instructions (with stunning images) helps you to build amazing projects and learn a thing or two on the way. You will start with simple projects like a homemade electromagnet or a homopolar motor and move on to more complicated ones like a robotic arm or a laser spirograph. Learn by doing! it’s the best way, especially if you have a digital mentor like Makeree. 
+TBD
 
-Follow your Path, Discover new skills and new friends.
+### Course format
 
-Don’t stop making!
+Lessons are written in Markdown format, with images and other resources stored in GitHub repository.
 
-### Open Source Curriculum 
+See **lesson_format.md** for a sample format of the lesson. 
 
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+##### Course
+A course contains a list of project-based lessons which cover a subject, from easy to complex, eventually giving the reader an extensive knowledge on the course subject.
 
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+##### Lesson
+Project-based lesson which contains a list of steps and resources that allows readers to be able to build a project from start to finish.
 
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+##### Lesson Step
+Step is part of the lesson and includes explanation and needed resources.
 
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+##### Extras
+Extras are a part of step resources and contain additional layer of information given to the users. Extras can be a simple text or contain additional optional images.
+
+Extras are optional in lesson steps, but can add a side useful explanation and information. 
+
+Types of extras:
+
+- Important
+- Alternative
+- What happened?
+
+##### Lesson format
+
+    1.	Lesson name 
+    2.	Lesson description
+    3. 	Lesson image
+    4.	Time to make
+    5.	Lesson Materials list
+    	- Material name
+    	- Material quantity
+    6.	Lesson steps list:
+    	- Step number
+    	- Step image
+    	- Step text
+    	- Step extras
+    		- Extra text
+    		- Extra image (optional)
+
+#### Github folder structure
+
+Folder "courses" contains all the courses and their data, including lesson texts and images.
+
+Inside there are folder of courses, where the folder name indicates the course name. 
+
+Each course folder contains a list of lesson folders with lesson definition, steps assets and extra resources.
+
+    - [courses]
+    	- [course-name]
+    		- [lesson1-name]	
+    		- [lesson2-name]
+    			- Lesson.md
+    			- [assets]
+    				- Image.png
+    				- step1.png
+    				- step2.png
+    				- step3.png
+    				- [extra]
+    					- [step1]
+    						- extra.png
+    					- [step4]
+    						- extra1.png
+    						- extra2.png
+
+
+### Edit lessons
+
+Pull requests are welcome!
+
+After forking the repository, there are a number of ways to add or edit courses and lessons.
+
+1.  Edit in online git editor:
+ 
+	 [Dillinger.io](http://dillinger.io)
+
+2.  Pull the repository and use offline editors, for example MarkdownPad:
+	
+	[MarkdownPad](http://markdownpad.com)
+
+3.  Add and edit Markdown files directly on GitHub.
+
+### View changes
+
+You can view the changes you made on our website, by entering your GitHub repository.
+
+[Makeree courses](http://courses.makeree.com)
 
 ### Contact
 
-[Makeree Website](www.facebook.com/freetimeacademy)
+[Makeree on Facebook](www.facebook.com/freetimeacademy)
 
-
-Email us: info@freetimeacademy.com
-> 
-
-### Free Time Academy
-
-"Free Time Academy" is a platform for creating gamified courses for hobbies.
-
-[Visit us on Facebook!](www.facebook.com/freetimeacademy)
+Email us: sergey@freetimeacademy.com
 
 
 
