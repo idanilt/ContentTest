@@ -77,6 +77,13 @@ Each course folder contains a list of lesson folders with lesson definition, ste
     						- extra2.png
 
 
+#### Images
+
+Images resolution recommendation:
+
+Makeree App is designed for Ipad and the images used in lessons will be viewed best with **2048 x 1536**  pixels.
+
+
 ### Edit lessons
 
 Pull requests are welcome!
@@ -95,7 +102,7 @@ After forking the repository, there are a number of ways to add or edit courses 
 
 ### View changes
 
-You can view the changes you made on our website, by entering your GitHub repository.
+You can view the changes you made on our website, by entering your GitHubrepository.
 
 [Makeree courses](http://courses.makeree.com)
 
