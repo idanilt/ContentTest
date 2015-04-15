@@ -1,7 +1,15 @@
 $(document).ready(function () {
 
     // Get repository
-    var repository = $('#repoistoryText').val();
+    var repository = '';
+    var customrepository = getParameterByName('repository');
+    if (customrepository != '') {
+        repository = customrepository;
+        $('#repoistoryText').val(repository);
+    }
+    else {
+        repository = $('#repoistoryText').val();
+    }
     repository = repository.replace('https://github.com/', '');
     repository = repository.replace('http://github.com/', '');
     repository = repository.replace('github.com/', '');
@@ -93,15 +101,28 @@ function GenerateLessonsMenu(repository, course) {
     );
 }
 
-function loadlesson(lessonid) {
-    var url = setGetParameter(window.location.href, 'lessonid', lessonid);
+function loadrepository() {
+
+    var repository = $('#repoistoryText').val();
+    var url = window.location.href;
+    url = setGetParameter(url, 'repository', repository);
+    url = setGetParameter(url, 'lessonid', '');
+    url = setGetParameter(url, 'courseid', '');
     window.location.href = url;
 }
 
+function loadlesson(lessonid) {
+
+    var url = window.location.href;
+    url = setGetParameter(url, 'lessonid', lessonid);
+    window.location.href = url;
+}
 
 function loadcourse(course) {
-    var url = setGetParameter(window.location.href, 'courseid', course);
-    var url = setGetParameter(url, 'lessonid', '');
+
+    var url = window.location.href;
+    url = setGetParameter(url, 'courseid', course);
+    url = setGetParameter(url, 'lessonid', '');
     window.location.href = url;
 }
 

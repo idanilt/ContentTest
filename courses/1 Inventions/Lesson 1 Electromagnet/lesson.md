@@ -6,7 +6,7 @@
 
 ELECTROMAGNET
 
-> ![](courses/Inventions/lesson1-Electromagnet/assets/image.jpg)
+> ![](courses/1 Inventions/lesson 1 Electromagnet/assets/image.jpg)
 
 ### Time to make
 
