@@ -1,12 +1,6 @@
 # MAKEREE Courses
 
-### Courses
-
-TBD
-
 ### Contribute
-
-TBD
 
 ##### Course
 A course contains a list of project-based lessons which cover a subject, from easy to complex, eventually giving the reader an extensive knowledge on the course subject.
