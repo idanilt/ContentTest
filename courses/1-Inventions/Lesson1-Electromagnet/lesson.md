@@ -10,7 +10,7 @@ ELECTROMAGNET
 
 ### Time to make
 
-1 Hour 20 Minutes.
+1 Hour 25 Minutes.
 
 ### Materials
 
