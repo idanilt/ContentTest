@@ -4,7 +4,7 @@
 ### Description
 The homopolar motor is a simple electrical machine that converts electrical signals into motion. In fact, it was the first electric motor ever built. This is a unique motor since the circular motion that is produced, is a result of the combination between electric and magnetic fields.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/image.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/image.jpg)
 
 
 1 Hour 25 Minutes.
@@ -25,7 +25,7 @@ The homopolar motor is a simple electrical machine that converts electrical sign
  
 Cut a segment of about 1' (30 cm) of electrical wire. Make sure the wire is solid, thick but flexible.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step1.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step1.jpg)
 
 ### Step 2
 
@@ -33,19 +33,19 @@ Cut a segment of about 1' (30 cm) of electrical wire. Make sure the wire is soli
 
  Use cutters and fully strip the wire from the isolating coating.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step2.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step2.jpg)
 
 #### Important
 
 A few stripping techniques will be introduced. Choose the one you find most convenient. Begin with holding the cutters in parallel to the wire.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra1.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra1.jpg)
 
 #### Important
 
 Cut the coating in parallel to the direction of the wire, avoid cutting the conductive wire itself
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra2.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra2.jpg)
 
 #### Important
 
@@ -57,34 +57,34 @@ NO TEXT (TEST)
 
 Repeat cutting in a parallel manner.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra4.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra4.jpg)
 
 #### Important
 
 Gradually cut the entire length and peel the coating off.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra5.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra5.jpg)
 
 
 #### Important
 
 The second stripping method, requires cutting the isolation coating in perpendicular to the wire's direction. Try to avoid cutting the conductive wire itself..
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra6.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra6.jpg)
 
 
 #### Important
 
 Create incisions and divide the coating into 2''(5 cm) segments.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra7.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra7.jpg)
 
 
 #### Important
 
 NO TEXT (TEST)
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra8.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra8.jpg)
 
 
 #### Important
@@ -118,7 +118,7 @@ The conductive wire should be fully exposed
 
 Use needle-nose pliers, avoid mistakenly using cutters. Bend the wire at the center. Try to be as accurate as possible and fold the wire in two.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step4.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step4.jpg)
 
 
 
@@ -128,13 +128,13 @@ Use needle-nose pliers, avoid mistakenly using cutters. Bend the wire at the cen
 
 Bend the wire, forming a V shape.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step5.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step5.jpg)
 
 #### Important
 
 Using the needle-nose pliers allows squeezing the wire tighter together.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step3/extra.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step3/extra.jpg)
 
 
 ### Step 6
@@ -143,13 +143,13 @@ Using the needle-nose pliers allows squeezing the wire tighter together.
 
 Grip the wire with the needle-nose pliers about 0.25'' (5 mm) from the vertex you have just created and bend the wire outwards.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step6.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step6.jpg)
 
 #### Important
 
 sketch (test) 
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step6/extra.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step6/extra.jpg)
 
 ### Step 7
 
@@ -157,7 +157,7 @@ sketch (test)
 
 Repeat on the other side of the wire.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step7.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step7.jpg)
 
 ### Step 8
 
@@ -165,7 +165,7 @@ Repeat on the other side of the wire.
 
 "Bend the wire again, 1'' (3 cm) from the previous bending point. Twist the wire 90 degrees inwards.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step8.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step8.jpg)
 
 ### Step 9
 
@@ -173,7 +173,7 @@ Repeat on the other side of the wire.
 
 Repeat on the other side of the wire
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step9.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step9.jpg)
 
 
 ### Step 10
@@ -182,7 +182,7 @@ Repeat on the other side of the wire
 
 "Take an AA battery and 3 round rare-earth magnets.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step10.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step10.jpg)
 
 #### Important
 
@@ -197,7 +197,7 @@ Rare-earth magnets are the strongest type of magnets, made out of alloys of rare
 
 Place the magnets on the battery's negative terminal
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step11.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step11.jpg)
 
 
 ### Step 12
@@ -206,7 +206,7 @@ Place the magnets on the battery's negative terminal
 
 Balance the tip of the wire on the battery's positive terminal.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step12.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step12.jpg)
 
 
 ### Step 13
@@ -215,7 +215,7 @@ Balance the tip of the wire on the battery's positive terminal.
 
 Identify the point on the wire that is the same height as the second magnet.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step13.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step13.jpg)
 
 #### Important
 
@@ -228,7 +228,7 @@ Identify this point by drawing an imaginary line from the middle magnet at the e
 
 Bend the wire 90 degrees inwards.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step14.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step14.jpg)
 
 
 ### Step 15
@@ -237,7 +237,7 @@ Bend the wire 90 degrees inwards.
 
 Repeat on the other side of the wire.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step15.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step15.jpg)
 
 
 ### Step 16
@@ -246,7 +246,7 @@ Repeat on the other side of the wire.
 
 Make sure the bended wire is at the height of the middle magnet, repair if necessary.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step16.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step16.jpg)
 
 ### Step 17
 
@@ -254,14 +254,14 @@ Make sure the bended wire is at the height of the middle magnet, repair if neces
 
 Manually bend the wire so that it is loosely wrapped around the middle magnet.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step17.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step17.jpg)
 ### Step 18
 
 #### Description
 
 NO TEXT 
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step18.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step18.jpg)
 
 ### Step 19
 
@@ -269,7 +269,7 @@ NO TEXT
 
 Repeat on the other side of the wire.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step19.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step19.jpg)
 
 
 ### Step 20
@@ -278,7 +278,7 @@ Repeat on the other side of the wire.
 
 Make sure that the wire is only touching the magnet lightly and not applying any pressure.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step20.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step20.jpg)
 
 ### Step 21
 
@@ -286,7 +286,7 @@ Make sure that the wire is only touching the magnet lightly and not applying any
 
 Cut the excess wire on both sides.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step21.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step21.jpg)
 
 ### Step 22
 
@@ -294,7 +294,7 @@ Cut the excess wire on both sides.
 
 NO TEXT 
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step22.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step22.jpg)
 
 
 ### Step 23
@@ -303,7 +303,7 @@ NO TEXT
 
 Balance the wire's tip on the battery's positive terminal.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step23.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step23.jpg)
 
 
 #### Important
@@ -324,7 +324,7 @@ And watch it spin
 
 This motor generates motion with the use of electrically charged particles in a magnetic field. Current flows through the wire, meaning electrons are moving in a certain direction along the wire. Since the wire is placed in a magnetic field, the electrons are affected by a force vigorously moving them in a different direction and therefore creating the accelerating movement of the coil. This basic law of physics is called the Lorentz force. Although the motion generating principles at the base of the Homopolar Motor are simple, it is are rarely used nowadays as it is an inefficient motor- requiring large current flow and producing relatively small forces.
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step24/extra.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step24/extra.jpg)
 
 
 ### Step 25
@@ -333,7 +333,7 @@ This motor generates motion with the use of electrically charged particles in a 
 
 Add your personal touch by decorating the wire
 
-> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step25.jpg)
+> ![]([BASE]/courses/1-Inventions/Lesson2-HomopolarMotor/assets/step25.jpg)
 
 
 #### Important
