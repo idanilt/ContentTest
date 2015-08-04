@@ -1,3 +1,5 @@
+var repository = '';
+
 $(document).ready(function () {
 
     var customrepository = getParameterByName('repository');
@@ -5,7 +7,6 @@ $(document).ready(function () {
     var courseid = getParameterByName('courseid');
 
     // Get repository
-    var repository = '';
     if (customrepository != '') {
         repository = customrepository;
         $('#repoistoryText').val(repository);
@@ -16,7 +17,8 @@ $(document).ready(function () {
     repository = repository.replace('https://github.com/', '');
     repository = repository.replace('http://github.com/', '');
     repository = repository.replace('github.com/', '');
-    if (repository.endsWith("/")) {
+    
+	if (repository.indexOf("/", repository.length - 1)) {
         repository = repository.substring(0, repository.length - 1);
     }
 
@@ -58,7 +60,7 @@ $(document).ready(function () {
         Flatdoc.run({
             fetcher: Flatdoc.github(repository)
         });
-    }
+	}
     else {
 
         Flatdoc.run({
@@ -66,6 +68,14 @@ $(document).ready(function () {
         });
     }
 })
+
+$(document).on('flatdoc:ready', function() {
+	$('img').each(
+        function(){
+			var newUrl = $(this).attr("src").replace("[BASE]", "https://raw.githubusercontent.com/" + repository + "/master/");
+            $(this).attr("src", newUrl);
+        });
+});
 
 function GenerateCoursesMenu(repository)
 {
