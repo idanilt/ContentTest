@@ -6,7 +6,7 @@
 
 ELECTROMAGNET
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/image.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/image.jpg)
 
 ### Time to make
 
@@ -28,7 +28,7 @@ ELECTROMAGNET
 
 Take the 6 feet (2 meters) of electric wire.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step1.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step1.jpg)
 
 ### Step 2
 
@@ -36,7 +36,7 @@ Take the 6 feet (2 meters) of electric wire.
 
 Using the cutter, pinch the wire’s isolation 0.5” (1 cm) from the wire's end. Be careful not to touch the wire itself, only the plastic cover.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step2.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step2.jpg)
 
 ### Step 3
 
@@ -44,13 +44,13 @@ Using the cutter, pinch the wire’s isolation 0.5” (1 cm) from the wire's end
 
 With a pulling motion peel 0.5” (1 cm) of the cover off the wire until it is fully exposed.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step3.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step3.jpg)
 
 #### Important
 
 With a pulling motion peel 0.5” (1 cm) of the cover off the wire until it is fully exposed.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/extra/step3/extra.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/extra/step3/extra.jpg)
 
 ### Step 4
 
@@ -58,13 +58,13 @@ With a pulling motion peel 0.5” (1 cm) of the cover off the wire until it is f
 
 Repeat process on the other end of the wire.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step4.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step4.jpg)
 
 #### Important
 
 See that the wire is solid. Solid wire has only one lead and is rigid, compared to stranded wire which has multiple leads and is more flexible. Solid wires work better for high voltage applications, while stranded wires work better for low voltage applications.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/extra/step4/extra.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/extra/step4/extra.jpg)
 
 ### Step 5
 
@@ -72,7 +72,7 @@ See that the wire is solid. Solid wire has only one lead and is rigid, compared 
 
 Start wrapping the wire around the bolt starting 1” (3 cm) down the wire.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step5.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step5.jpg)
 
 ### Step 6
 
@@ -80,13 +80,13 @@ Start wrapping the wire around the bolt starting 1” (3 cm) down the wire.
 
 Starting from the bolt’s head, wrap the wire around the bolt firmly, creating windings as close as possible to one another. Try not to overlap, though.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step6.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step6.jpg)
 
 #### Important
 
 If gaps are created between wire windings, you can always press down the wire, diminishing them with your fingers.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/extra/step6/extra.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/extra/step6/extra.jpg)
 
 ### Step 7
 
@@ -94,7 +94,7 @@ If gaps are created between wire windings, you can always press down the wire, d
 
 When you reach the end of the bolt, start wrapping the wire the other way. Now there is no problem with overlapping.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step7.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step7.jpg)
 
 ### Step 8
 
@@ -102,7 +102,7 @@ When you reach the end of the bolt, start wrapping the wire the other way. Now t
 
 Continue wrapping the wire. Leave 1” (3 cm) of unwrapped wire on the other end as well.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step8.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step8.jpg)
 
 ### Step 9
 
@@ -110,7 +110,7 @@ Continue wrapping the wire. Leave 1” (3 cm) of unwrapped wire on the other end
 
 Using a piece of tape, secure the coil you created onto the bolt.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step9.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step9.jpg)
 
 ### Step 10
 
@@ -118,7 +118,7 @@ Using a piece of tape, secure the coil you created onto the bolt.
 
 Using another piece of tape, attach the AA battery to the bolt.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step10.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step10.jpg)
 
 ### Step 11
 
@@ -126,7 +126,7 @@ Using another piece of tape, attach the AA battery to the bolt.
 
 Connect the nearest end of the wire to the battery's negative terminal.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step11.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step11.jpg)
 
 ### Step 12
 
@@ -134,7 +134,7 @@ Connect the nearest end of the wire to the battery's negative terminal.
 
 Secure it with a small piece of tape.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step12.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step12.jpg)
 
 ### Step 13
 
@@ -142,7 +142,7 @@ Secure it with a small piece of tape.
 
 Congratulations! You have just built an electromagnet – your first creation.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step13.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step13.jpg)
 
 #### Important
 
@@ -154,7 +154,7 @@ An electromagnet is a type of magnet in which the magnetic field is induced by e
 
 Hold the bolt in the air and bring the loose wire end to the battery’s positive terminal.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step14.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step14.jpg)
 
 ### Step 15
 
@@ -162,10 +162,10 @@ Hold the bolt in the air and bring the loose wire end to the battery’s positiv
 
 Use the end of the bolt to pick metallic paper clips. Can you chain paper clips to one another, transferring magnetic field through a chain of paper clips?
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step15.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/step15.jpg)
 
 #### Important
 
 What has just happened here? When both ends of the wire are connected to the battery, electric current starts flowing through the wire. The electric current generates a small magnetic field around it. The coil you created around the bolt allowed all the small fields to accumulate into a larger magnetic field and temporarily magnetize the bolt, allowing it to attract small metallic paper clips.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/extra/step15/extra.jpg)
+> ![]([BASE]/courses/1-Inventions/lesson1-Electromagnet/assets/extra/step15/extra.jpg)
