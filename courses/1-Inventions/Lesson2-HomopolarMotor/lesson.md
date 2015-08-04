@@ -1,171 +1,344 @@
-# ELECTROMAGNET
 
 ## About
 
 ### Description
-
-ELECTROMAGNET
+The homopolar motor is a simple electrical machine that converts electrical signals into motion. In fact, it was the first electric motor ever built. This is a unique motor since the circular motion that is produced, is a result of the combination between electric and magnetic fields.
 
 > ![](courses/1-Inventions/lesson1-Electromagnet/assets/image.jpg)
 
-### Time to make
 
 1 Hour 25 Minutes.
 
 ### Materials
 
-- 6 Feet (2 Meters) of Thin Electric wire - Solid (preferably AWG30).
-- 1 AA battery.
-- 1 Large bolt or screwdriver (diameter of at least 0.5mm).
-- Cutter.
-- Cello tape / masking tape / duct tape
+- 1' / 30 cm Of Thin & Solid Electric Wire (Preferably AWG18)
+- 1 AA Battery
+- 3 Rare Earth Magnets (Preferably Neodmiyum)
+- Cutters
+- Cello Tape / Duct Tape
 
 ## Lesson steps
 
 ### Step 1
 
 #### Description
+ 
+Cut a segment of about 1' (30 cm) of electrical wire. Make sure the wire is solid, thick but flexible.
 
-Take the 6 feet (2 meters) of electric wire.
-
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step1.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step1.jpg)
 
 ### Step 2
 
-#### Description
+#### Description 
 
-Using the cutter, pinch the wire’s isolation 0.5” (1 cm) from the wire's end. Be careful not to touch the wire itself, only the plastic cover.
+ Use cutters and fully strip the wire from the isolating coating.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step2.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step2.jpg)
+
+#### Important
+
+A few stripping techniques will be introduced. Choose the one you find most convenient. Begin with holding the cutters in parallel to the wire.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra1.jpg)
+
+#### Important
+
+Cut the coating in parallel to the direction of the wire, avoid cutting the conductive wire itself
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra2.jpg)
+
+#### Important
+
+NO TEXT (TEST)
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra3.jpg)
+
+#### Important
+
+Repeat cutting in a parallel manner.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra4.jpg)
+
+#### Important
+
+Gradually cut the entire length and peel the coating off.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra5.jpg)
+
+
+#### Important
+
+The second stripping method, requires cutting the isolation coating in perpendicular to the wire's direction. Try to avoid cutting the conductive wire itself..
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra6.jpg)
+
+
+#### Important
+
+Create incisions and divide the coating into 2''(5 cm) segments.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra7.jpg)
+
+
+#### Important
+
+NO TEXT (TEST)
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra8.jpg)
+
+
+#### Important
+
+Gradually, section by section, peel the isolating coating off.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra9.jpg)
+
+
+#### Important
+
+Repeat this process until the wire is fully exposed.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step2/extra10.jpg)
+
+
 
 ### Step 3
 
 #### Description
 
-With a pulling motion peel 0.5” (1 cm) of the cover off the wire until it is fully exposed.
+The conductive wire should be fully exposed
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step3.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step3.jpg)
 
-#### Important
 
-With a pulling motion peel 0.5” (1 cm) of the cover off the wire until it is fully exposed.
-
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/extra/step3/extra.jpg)
 
 ### Step 4
 
 #### Description
 
-Repeat process on the other end of the wire.
+Use needle-nose pliers, avoid mistakenly using cutters. Bend the wire at the center. Try to be as accurate as possible and fold the wire in two.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step4.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step4.jpg)
 
-#### Important
 
-See that the wire is solid. Solid wire has only one lead and is rigid, compared to stranded wire which has multiple leads and is more flexible. Solid wires work better for high voltage applications, while stranded wires work better for low voltage applications.
-
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/extra/step4/extra.jpg)
 
 ### Step 5
 
 #### Description
 
-Start wrapping the wire around the bolt starting 1” (3 cm) down the wire.
+Bend the wire, forming a V shape.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step5.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step5.jpg)
+
+#### Important
+
+Using the needle-nose pliers allows squeezing the wire tighter together.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step3/extra.jpg)
+
 
 ### Step 6
 
 #### Description
 
-Starting from the bolt’s head, wrap the wire around the bolt firmly, creating windings as close as possible to one another. Try not to overlap, though.
+Grip the wire with the needle-nose pliers about 0.25'' (5 mm) from the vertex you have just created and bend the wire outwards.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step6.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step6.jpg)
 
 #### Important
 
-If gaps are created between wire windings, you can always press down the wire, diminishing them with your fingers.
+sketch (test) 
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/extra/step6/extra.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step6/extra.jpg)
 
 ### Step 7
 
 #### Description
 
-When you reach the end of the bolt, start wrapping the wire the other way. Now there is no problem with overlapping.
+Repeat on the other side of the wire.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step7.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step7.jpg)
 
 ### Step 8
 
 #### Description
 
-Continue wrapping the wire. Leave 1” (3 cm) of unwrapped wire on the other end as well.
+"Bend the wire again, 1'' (3 cm) from the previous bending point. Twist the wire 90 degrees inwards.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step8.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step8.jpg)
 
 ### Step 9
 
 #### Description
 
-Using a piece of tape, secure the coil you created onto the bolt.
+Repeat on the other side of the wire
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step9.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step9.jpg)
+
 
 ### Step 10
 
 #### Description
 
-Using another piece of tape, attach the AA battery to the bolt.
+"Take an AA battery and 3 round rare-earth magnets.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step10.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step10.jpg)
+
+#### Important
+
+Rare-earth magnets are the strongest type of magnets, made out of alloys of rare earth elements. They produce significantly stronger magnetic fields in comparison to other types of magnets.
+
+
+
 
 ### Step 11
 
 #### Description
 
-Connect the nearest end of the wire to the battery's negative terminal.
+Place the magnets on the battery's negative terminal
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step11.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step11.jpg)
+
 
 ### Step 12
 
 #### Description
 
-Secure it with a small piece of tape.
+Balance the tip of the wire on the battery's positive terminal.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step12.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step12.jpg)
+
 
 ### Step 13
 
 #### Description
 
-Congratulations! You have just built an electromagnet – your first creation.
+Identify the point on the wire that is the same height as the second magnet.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step13.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step13.jpg)
 
 #### Important
 
-An electromagnet is a type of magnet in which the magnetic field is induced by electric current. In a regular magnet the material itself produces a magnetic field and not an electric current.
+Identify this point by drawing an imaginary line from the middle magnet at the end of the battery, leading to the wire.
+
 
 ### Step 14
 
 #### Description
 
-Hold the bolt in the air and bring the loose wire end to the battery’s positive terminal.
+Bend the wire 90 degrees inwards.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step14.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step14.jpg)
+
 
 ### Step 15
 
 #### Description
 
-Use the end of the bolt to pick metallic paper clips. Can you chain paper clips to one another, transferring magnetic field through a chain of paper clips?
+Repeat on the other side of the wire.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/step15.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step15.jpg)
+
+
+### Step 16
+
+#### Description
+
+Make sure the bended wire is at the height of the middle magnet, repair if necessary.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step16.jpg)
+
+### Step 17
+
+#### Description
+
+Manually bend the wire so that it is loosely wrapped around the middle magnet.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step17.jpg)
+### Step 18
+
+#### Description
+
+NO TEXT 
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step18.jpg)
+
+### Step 19
+
+#### Description
+
+Repeat on the other side of the wire.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step19.jpg)
+
+
+### Step 20
+
+#### Description
+
+Make sure that the wire is only touching the magnet lightly and not applying any pressure.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step20.jpg)
+
+### Step 21
+
+#### Description
+
+Cut the excess wire on both sides.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step21.jpg)
+
+### Step 22
+
+#### Description
+
+NO TEXT 
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step22.jpg)
+
+
+### Step 23
+
+#### Description
+
+Balance the wire's tip on the battery's positive terminal.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step23.jpg)
+
 
 #### Important
 
-What has just happened here? When both ends of the wire are connected to the battery, electric current starts flowing through the wire. The electric current generates a small magnetic field around it. The coil you created around the bolt allowed all the small fields to accumulate into a larger magnetic field and temporarily magnetize the bolt, allowing it to attract small metallic paper clips.
+As a result of the current running through the circuit, the battery might warm up and runtime may shorten.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/extra/step15/extra.jpg)
+
+
+### Step 24
+
+#### Description
+
+And watch it spin
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step24.jpg)
+
+#### Important
+
+This motor generates motion with the use of electrically charged particles in a magnetic field. Current flows through the wire, meaning electrons are moving in a certain direction along the wire. Since the wire is placed in a magnetic field, the electrons are affected by a force vigorously moving them in a different direction and therefore creating the accelerating movement of the coil. This basic law of physics is called the Lorentz force. Although the motion generating principles at the base of the Homopolar Motor are simple, it is are rarely used nowadays as it is an inefficient motor- requiring large current flow and producing relatively small forces.
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/extra/step24/extra.jpg)
+
+
+### Step 25
+
+#### Description
+
+Add your personal touch by decorating the wire
+
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/step25.jpg)
+
+
+#### Important
+
+Make sure that the ornaments you add are light weight and well balanced.
+
+
+
