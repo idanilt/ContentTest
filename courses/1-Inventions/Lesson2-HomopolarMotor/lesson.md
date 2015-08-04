@@ -4,7 +4,7 @@
 ### Description
 The homopolar motor is a simple electrical machine that converts electrical signals into motion. In fact, it was the first electric motor ever built. This is a unique motor since the circular motion that is produced, is a result of the combination between electric and magnetic fields.
 
-> ![](courses/1-Inventions/lesson1-Electromagnet/assets/image.jpg)
+> ![](courses/1-Inventions/Lesson2-HomopolarMotor/assets/image.jpg)
 
 
 1 Hour 25 Minutes.
